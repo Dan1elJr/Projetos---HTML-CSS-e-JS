@@ -1,0 +1,158 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #DDD;   
+}
+.container {
+    display: flex;
+    justify-content: center;
+   
+    
+}
+
+.inner {
+    width: 1000px;
+    background-color: #FFF;
+    padding: 15px;
+   
+    
+}
+header {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  
+    padding: 5px;
+    font-family: 'Chicle', cursive;
+  
+}
+.header_title {
+    font-size: 60px;
+    color: #b93535fd;
+    text-shadow: 0px 0px 10px white;
+    text-shadow: 2px 2px 10px #000;
+}
+section {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.dog_bg{
+    margin-top: 10px;
+    background-image: url('../images/basset_hound\ .jpg');
+    background-position: center;
+    background-size: cover;
+    border-radius: 15px;
+    width: 100%;
+    height: 500px;
+    
+    
+  
+}
+main {
+    margin-top: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    border: 2px solid #111;
+    padding: 10px;
+    border-radius: 15px;
+}
+.dog_desc {
+    flex: 1;
+    text-justify: left;
+    border-radius: 5px;
+    padding-right: 5px;
+    color: black;
+    font-size: 30px;
+    font-family: 'Chicle', cursive;
+    font-weight: normal;
+    line-height: 75px;
+}
+.order {
+   
+  
+    background-image: url('../images/basset_hound1.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 400px;
+}
+.hr {
+    margin-top: 10px;
+    width: 100%;
+    height: 5px;
+    background-color: black;
+}
+.pata {
+    margin-top: 10px;
+    background-image: url('../images/pata.jpg');
+    background-position: center;
+    background-size: cover;
+    width: 200px;
+    height: 200px;
+    
+}
+.widget {
+    
+   display: flex;
+   justify-content: space-between;
+   
+    margin-top: 10px;
+   
+}
+.wid1{
+    flex: 1;
+    margin-left:5px;
+    border: 2px solid #111;
+    border-radius: 5px;
+   
+}
+.wid{
+    flex: 1;
+    border: 2px solid #111;
+    border-radius: 5px;
+}
+.wid, .wid1 {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.wid_title {
+    font-size: 25px;
+    font-family: 'Chicle', cursive;
+}
+.wid_desc {
+    margin-top: 10px;
+    line-height: 30px;
+}
+@media(max-width:900px){
+    .widget{
+        flex-direction: column;
+        
+    }
+    .wid1 {
+        margin: 10px;
+        font-size: 15px;
+    }
+    main {
+        flex-direction: column;
+    }
+}
+@media (max-width:700px){
+    .header_title{
+        font-size: 40px;
+    }
+    .dog_desc{
+        font-size: 15px;
+    }
+    .dog_bg {
+        height: 250px;
+    }
+    .order {
+        min-height: 200px;
+    }
+}
