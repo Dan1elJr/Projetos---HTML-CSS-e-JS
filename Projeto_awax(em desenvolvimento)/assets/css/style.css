@@ -422,6 +422,7 @@ header {
     background-color: #b28756;
 }
 
+    /* co-workers */
 .section-team-avatar {
     width: 150px;
     height: auto;
@@ -452,5 +453,8 @@ header {
     width: 25px;
     height: 25px;
 
+}
+.section-team--social a:hover {
+    background-color: #b28756;
 }
 
