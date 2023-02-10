@@ -1,7 +1,7 @@
 # Projetos---HTML-CSS-e-JS
 
 
-Estes projetos tem como objetivo botar em prática os conteúdos absorvidos em aula; além de exibir minhas competências técnicas atuais.
+Estes projetos tem como objetivo botar em prática os conteúdos absorvidos no curso B7WEB - FULL STACK Web developer; além de exibir minhas competências técnicas atuais.
 
 Sinta-se a vontadade para exlorá-los da forma que for melhor.
 
