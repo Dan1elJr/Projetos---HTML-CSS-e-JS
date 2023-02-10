@@ -204,6 +204,8 @@ header {
 
 
 
+
+
 /* CSS DE AREAS ESPECÍFICAS */
 
 /* about us */
@@ -458,3 +460,65 @@ header {
     background-color: #b28756;
 }
 
+/* our team */
+    /* happy clients */
+
+.section-body {
+    
+    overflow: hidden;
+}
+
+.clientreview-sliders {
+    width: 300vw;
+    
+    display: flex;
+}
+.clientreview-slide {
+    width: 100vw;
+    
+
+}
+.clientreview-slide--inner {
+    width: 100%;
+    max-width: 1140px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+}
+.clientreview-slide--inner img {
+    width: 150px;
+    height: 150px;
+}
+
+.clientreview-name {
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 17px;
+    margin-top: 30px;
+}
+.clientreview-role{
+    font-size: 14px;
+    color: #999;
+    margin-top: 5px;
+}
+
+
+
+
+
+
+
+
+
+    
+
+
+
+    
+
+
+
+
+    
