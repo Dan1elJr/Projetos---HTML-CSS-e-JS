@@ -500,8 +500,72 @@ header {
 }
 .clientreview-role{
     font-size: 14px;
-    color: #999;
+    color: black;
     margin-top: 5px;
+    font-weight: 600;
+}
+.clientreview-blockquote {
+   margin-top: 34px;
+   max-width: 730px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   text-align: center;
+   
+    
+}
+.clientreview-blockquote img{
+    width: 30px;
+    height: 20px;
+    margin-bottom: 19px;
+      
+}
+.sliders-pointers {
+    margin-top: 30px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+}
+.pointer{
+    width: 15px;
+    height: 15px;
+    border: 2px solid #b28756;
+    border-radius: 8px;
+    margin-left: 5px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+.pointer.active {
+    background-color: #b28756;
+}
+
+    /* logos */
+
+.default.light.lgs {
+    padding: 0;   
+    background-color: #FFF;
+    border-top: 2px solid #000;
+    border-bottom: 2px solid #000;
+}
+.section-logos {
+    display: flex;
+    margin: auto;
+   
+
+}   
+.section-logos--images{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    padding-top: 45px;
+    padding-bottom: 45px;
+} 
+.section-logos--images img {
+    width: auto;
+    height: 60px;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 
 
