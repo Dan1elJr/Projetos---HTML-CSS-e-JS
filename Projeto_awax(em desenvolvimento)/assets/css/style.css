@@ -659,14 +659,12 @@ header {
 }
 
 .premium-banner--photo{
-    
-    flex: 1; 
     padding-right: 122px;
     
 }
 .premium-banner--features{
     width: 100%;
-    max-width: 580px;
+    max-width: 500px;
     height: 100%;
     
 }
@@ -702,10 +700,12 @@ header {
 }
 .feature--title .feature--head h5{
     text-transform: uppercase;
-    width: 100%
+    width: 100%;
+    
 }
-.feature--head--desc {
+.feature--head--desc p {
     color: #999;
+    width: 100%;
 }
 .feature--head--desc p {
     margin-top: 15px;
