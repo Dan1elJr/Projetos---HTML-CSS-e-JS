@@ -540,7 +540,7 @@ header {
     background-color: #b28756;
 }
 
-    /* logos */
+    /* happy-client--logos */
 
 .default.light.lgs {
     padding: 0;   
@@ -567,6 +567,187 @@ header {
     padding-top: 5px;
     padding-bottom: 5px;
 }
+
+/* section-price */
+
+.section-price {
+    width: 100%;
+    height: auto;
+    
+}
+.section-price--banners {
+    display: flex;
+}
+.section-price--banner {
+    flex: 1;
+    color: white;
+    max-width: 255px;
+    margin-left: 30px;
+    background-color: #FFF;
+    
+}
+.section-banner--area {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #000; 
+    padding-top: 33px;
+    padding-bottom: 33px;
+}
+.section-banner--area h5,
+.section-banner--area p {
+    text-transform: uppercase;
+    
+   
+}
+.section-banner--area h5 {
+    margin-bottom:10px ;
+    font-weight: 600;
+}
+.section-banner--area--price {
+    font-size: 30px;
+    font-weight: bold;
+    word-spacing: -5px;
+    text-align: left;
+   
+}
+.section-banner--area--month {
+    font-size: 10px;
+    font-weight: 600;
+    color: #CCC;
+    margin-top: 2px;
+    margin-bottom: 23px;
+    
+}
+.section-banner--area ul li {
+    list-style: none;
+    text-align: center;
+    color: #555;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+/* section premium */
+.default.light.premium-color {
+    background-color: #FFF;
+    height: 600px;
+}
+.section-body.height {
+    height: 100%;
+}
+.premium-banners {
+    width: 300vw;
+    display: flex;
+   
+    
+}
+.premium-banner{
+    width: 100vw;
+    display: flex;
+    padding: 0px 65px 0px 65px;
+    border-bottom: 2px solid #000;
+    padding-bottom: 30px;
+   
+}
+.premium-banner--inner{
+    width: 100%;
+    max-width: 1140px;
+    display: flex;
+    
+}
+
+.premium-banner--photo{
+    
+    flex: 1; 
+    padding-right: 122px;
+    
+}
+.premium-banner--features{
+    width: 100%;
+    max-width: 580px;
+    height: 100%;
+    
+}
+.premium-banner--photo img {
+    width: 100%;
+    min-width: 338px;
+   
+    
+}
+.banner-first--features,
+.banner-second--features,
+.banner-third--features{
+    
+    display: flex;
+    margin-bottom:27px ;
+  
+   
+}
+.feature--title {
+    display: flex; 
+    width: 100%;
+}
+.feature--title h5 {
+    font-size: 17px;
+}
+.feature--image img {
+    width: 30px;
+    height: 30px;
+    margin-right: 30px;
+}
+.feature--head {
+    padding-top: 5px;
+}
+.feature--title .feature--head h5{
+    text-transform: uppercase;
+    width: 100%
+}
+.feature--head--desc {
+    color: #999;
+}
+.feature--head--desc p {
+    margin-top: 15px;
+    margin-bottom: 15px;
+
+}
+.feature--head--desc ul li {
+    list-style: none;
+
+}
+.feature--head--desc ul{
+    text-transform: uppercase;
+    line-height: 25px;
+    
+}
+
+.feature--head--desc ul li::before{
+    content: "━";
+}
+.feature-button {
+    position: absolute;
+    margin-top: -20px;
+    margin-left: -10px;
+    width: 100vw;
+    height: 20px;
+    
+    
+}
+.feature-button--aligns {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    max-width: 1140px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+
 
 
 
