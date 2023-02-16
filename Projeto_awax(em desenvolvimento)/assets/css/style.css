@@ -814,6 +814,14 @@ header {
     min-height: 25px;
    
 }
+.section-socialmedia--logos.twitter:hover,
+.section-socialmedia--logos.linkedin:hover,
+.section-socialmedia--logos.facebook:hover,
+.section-socialmedia--logos.googleplus:hover,
+.section-socialmedia--logos.pinterest:hover
+ {
+    box-shadow: 0px 0px 10px #000;
+}
 
 .section-socialmedia--images p  {
     padding-left: 10px; 
@@ -845,6 +853,7 @@ header {
 .pinterest {
     background-color: #b41c29;
 }
+
     
 
 
