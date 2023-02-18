@@ -866,7 +866,6 @@ header {
     flex: 1;
     max-width: 255px;
 }
-
 .section-contactus--form .subject,
 .section-contactus--form .message{
     width: 100%;
@@ -1037,6 +1036,7 @@ footer {
     
 }
 .footer-body--subscribe {
+    min-width: 250px;
     background-color: #373737;
     display: flex;
     justify-content: center;
